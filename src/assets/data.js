@@ -9,7 +9,7 @@
 export const plants = [
   // Bonsai
   {
-    id: 1,
+    id: "1",
     name: "Japanese Maple Bonsai",
     category: "Bonsai",
     price: 450,
@@ -17,7 +17,7 @@ export const plants = [
     description: "A delicate bonsai with fiery red leaves symbolizing peace and harmony."
   },
   {
-    id: 2,
+    id: "2",
     name: "Ficus Bonsai",
     category: "Bonsai",
     price: 300,
@@ -25,7 +25,7 @@ export const plants = [
     description: "Evergreen bonsai known for its resilience and lush green canopy."
   },
   {
-    id: 3,
+    id: "3",
     name: "Juniper Bonsai",
     category: "Bonsai",
     price: 280,
@@ -33,7 +33,7 @@ export const plants = [
     description: "Classic bonsai with needle-like leaves and sculpted shapes."
   },
   {
-    id: 4,
+    id: "4",
     name: "Cherry Blossom Bonsai",
     category: "Bonsai",
     price: 500,
@@ -41,7 +41,7 @@ export const plants = [
     description: "Elegant miniature sakura tree, a symbol of fleeting beauty."
   },
   {
-    id: 5,
+    id: "5",
     name: "Pine Bonsai",
     category: "Bonsai",
     price: 350,
@@ -49,7 +49,7 @@ export const plants = [
     description: "Symbol of endurance and strength, perfect for serene spaces."
   },
   {
-    id: 6,
+    id: "6",
     name: "Azalea Bonsai",
     category: "Bonsai",
     price: 270,
@@ -57,7 +57,7 @@ export const plants = [
     description: "Flowering bonsai with vibrant pink and red blossoms."
   },
   {
-    id: 7,
+    id: "7",
     name: "Olive Bonsai",
     category: "Bonsai",
     price: 320,
@@ -65,7 +65,7 @@ export const plants = [
     description: "Mediterranean-style bonsai with silver-green leaves."
   },
   {
-    id: 8,
+    id: "8",
     name: "Elm Bonsai",
     category: "Bonsai",
     price: 290,
@@ -73,7 +73,7 @@ export const plants = [
     description: "Elegant bonsai with fine branches and smooth leaves."
   },
   {
-    id: 9,
+    id: "9",
     name: "Bamboo Bonsai",
     category: "Bonsai",
     price: 400,
@@ -81,7 +81,7 @@ export const plants = [
     description: "Symbol of luck and prosperity, crafted into bonsai form."
   },
   {
-    id: 10,
+    id: "10",
     name: "Cedar Bonsai",
     category: "Bonsai",
     price: 370,
@@ -89,9 +89,10 @@ export const plants = [
     description: "Majestic bonsai representing longevity and timeless elegance."
   },
 
+
   // Thorns
-  {
-    id: 11,
+{
+    id: "11",
     name: "Crown of Thorns",
     category: "Thorns",
     price: 200,
@@ -99,7 +100,7 @@ export const plants = [
     description: "Striking plant with thorny stems and vibrant flowers."
   },
   {
-    id: 12,
+    id: "12",
     name: "Desert Rose Thorn",
     category: "Thorns",
     price: 250,
@@ -107,7 +108,7 @@ export const plants = [
     description: "Unique succulent with thorny branches and bright blooms."
   },
   {
-    id: 13,
+    id: "13",
     name: "Wild Acacia Thorn",
     category: "Thorns",
     price: 180,
@@ -115,15 +116,15 @@ export const plants = [
     description: "Exotic plant with sharp thorns and elegant silhouette."
   },
   {
-    id: 14,
-    name: "Dragon’s Spine Thorn",
+    id: "14",
+    name: "Dragon's Spine Thorn",
     category: "Thorns",
     price: 300,
     image: "https://images.unsplash.com/photo-1667305202885-847a0bfa9d7f?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     description: "A rare thorny plant that resembles the scales of a dragon."
   },
   {
-    id: 15,
+    id: "15",
     name: "Rose with Luxury Thorns",
     category: "Thorns",
     price: 350,
@@ -131,7 +132,7 @@ export const plants = [
     description: "Classic red rose enhanced with striking thorn stems."
   },
   {
-    id: 16,
+    id: "16",
     name: "Spiny Euphorbia",
     category: "Thorns",
     price: 280,
@@ -139,7 +140,7 @@ export const plants = [
     description: "Desert-inspired plant with thorny ridges and rare beauty."
   },
   {
-    id: 17,
+    id: "17",
     name: "Agave Thorned",
     category: "Thorns",
     price: 400,
@@ -147,7 +148,7 @@ export const plants = [
     description: "Luxury agave variety with razor-sharp thorn tips."
   },
   {
-    id: 18,
+    id: "18",
     name: "Cactus Jewel Thorn",
     category: "Thorns",
     price: 220,
@@ -155,7 +156,7 @@ export const plants = [
     description: "Small cactus with sparkling thorn patterns."
   },
   {
-    id: 19,
+    id: "19",
     name: "Blackthorn",
     category: "Thorns",
     price: 260,
@@ -163,7 +164,7 @@ export const plants = [
     description: "Elegant shrub with dark bark and formidable thorns."
   },
   {
-    id: 20,
+    id: "20",
     name: "Golden Thorn Bush",
     category: "Thorns",
     price: 310,
@@ -173,7 +174,7 @@ export const plants = [
 
   // Orchids
   {
-    id: 21,
+    id: "21",
     name: "Phalaenopsis Orchid",
     category: "Orchids",
     price: 500,
@@ -181,7 +182,7 @@ export const plants = [
     description: "Moth orchid with wide petals and stunning colors."
   },
   {
-    id: 22,
+    id: "22",
     name: "Vanda Orchid",
     category: "Orchids",
     price: 600,
@@ -189,15 +190,15 @@ export const plants = [
     description: "Luxury orchid with dramatic blooms and exotic charm."
   },
   {
-    id: 23,
+    id: "23",
     name: "Cattleya Orchid",
     category: "Orchids",
     price: 550,
     image: "https://images.unsplash.com/photo-1667305202885-847a0bfa9d7f?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    description: "Known as the ‘Queen of Orchids’ with royal fragrance."
+    description: "Known as the 'Queen of Orchids ' with royal fragrance."
   },
   {
-    id: 24,
+    id: "24",
     name: "Miltonia Orchid",
     category: "Orchids",
     price: 480,
@@ -205,7 +206,7 @@ export const plants = [
     description: "Pansy-like orchid with cheerful, vibrant patterns."
   },
   {
-    id: 25,
+    id: "25",
     name: "Dendrobium Orchid",
     category: "Orchids",
     price: 530,
@@ -213,15 +214,15 @@ export const plants = [
     description: "Tall-stemmed orchid with elegant blossoms."
   },
   {
-    id: 26,
+    id: "26",
     name: "Brassia Orchid",
     category: "Orchids",
     price: 470,
     image: "https://images.unsplash.com/photo-1667305202885-847a0bfa9d7f?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    description: "Known as ‘Spider Orchid’ with long and exotic petals."
+    description: "Known as 'Spider Orchid' with long and exotic petals."
   },
   {
-    id: 27,
+    id: "27",
     name: "Oncidium Orchid",
     category: "Orchids",
     price: 520,
@@ -229,7 +230,7 @@ export const plants = [
     description: "Golden-dancing orchid with dazzling clusters."
   },
   {
-    id: 28,
+    id: "28",
     name: "Paphiopedilum Orchid",
     category: "Orchids",
     price: 580,
@@ -237,7 +238,7 @@ export const plants = [
     description: "Also called Lady Slipper Orchid, unique and rare."
   },
   {
-    id: 29,
+    id: "29",
     name: "Cymbidium Orchid",
     category: "Orchids",
     price: 560,
@@ -245,7 +246,7 @@ export const plants = [
     description: "Long-lasting blooms, perfect for luxury arrangements."
   },
   {
-    id: 30,
+    id: "30",
     name: "Zygopetalum Orchid",
     category: "Orchids",
     price: 490,
@@ -253,9 +254,10 @@ export const plants = [
     description: "Fragrant orchid with intricate petal patterns."
   },
 
+
   // Succulents
   {
-    id: 31,
+    id: "31",
     name: "Echeveria Pearl",
     category: "Succulents",
     price: 150,
@@ -263,7 +265,7 @@ export const plants = [
     description: "Rosette-shaped succulent with pearly green leaves."
   },
   {
-    id: 32,
+    id: "32",
     name: "Aloe Vera Luxury",
     category: "Succulents",
     price: 180,
@@ -271,7 +273,7 @@ export const plants = [
     description: "Elegant aloe vera with healing properties."
   },
   {
-    id: 33,
+    id: "33",
     name: "Haworthia Zebra",
     category: "Succulents",
     price: 170,
@@ -279,7 +281,7 @@ export const plants = [
     description: "Striped succulent resembling zebra patterns."
   },
   {
-    id: 34,
+    id: "34",
     name: "Lithops Jewel",
     category: "Succulents",
     price: 200,
@@ -287,7 +289,7 @@ export const plants = [
     description: "Living stones succulent with gemstone-like look."
   },
   {
-    id: 35,
+    id: "35",
     name: "Graptopetalum Pink",
     category: "Succulents",
     price: 220,
@@ -295,7 +297,7 @@ export const plants = [
     description: "Pastel pink succulent with soft rosette structure."
   },
   {
-    id: 36,
+    id: "36",
     name: "Aeonium Black Rose",
     category: "Succulents",
     price: 240,
@@ -303,7 +305,7 @@ export const plants = [
     description: "Dark purple rosette succulent with dramatic appeal."
   },
   {
-    id: 37,
+    id: "37",
     name: "Panda Plant",
     category: "Succulents",
     price: 160,
@@ -311,7 +313,7 @@ export const plants = [
     description: "Furry-leaved succulent with spotted edges."
   },
   {
-    id: 38,
+    id: "38",
     name: "Moonstone Succulent",
     category: "Succulents",
     price: 190,
@@ -319,7 +321,7 @@ export const plants = [
     description: "Chubby succulent with opalescent glow."
   },
   {
-    id: 39,
+    id: "39",
     name: "String of Pearls",
     category: "Succulents",
     price: 210,
@@ -327,8 +329,8 @@ export const plants = [
     description: "Trailing succulent with pearl-like leaves."
   },
   {
-    id: 40,
-    name: "Burro’s Tail",
+    id: "40",
+    name: "Burro's Tail",
     category: "Succulents",
     price: 200,
     image: "https://images.unsplash.com/photo-1667305202885-847a0bfa9d7f?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -337,7 +339,7 @@ export const plants = [
 
   // Palms
   {
-    id: 41,
+    id: "41",
     name: "Areca Palm",
     category: "Palms",
     price: 350,
@@ -345,7 +347,7 @@ export const plants = [
     description: "Graceful indoor palm with feathery fronds."
   },
   {
-    id: 42,
+    id: "42",
     name: "Kentia Palm",
     category: "Palms",
     price: 400,
@@ -353,7 +355,7 @@ export const plants = [
     description: "Tall, luxurious palm popular for interiors."
   },
   {
-    id: 43,
+    id: "43",
     name: "Sago Palm",
     category: "Palms",
     price: 370,
@@ -361,7 +363,7 @@ export const plants = [
     description: "Ornamental palm with symmetrical leaves."
   },
   {
-    id: 44,
+    id: "44",
     name: "Parlor Palm",
     category: "Palms",
     price: 330,
@@ -369,7 +371,7 @@ export const plants = [
     description: "Compact palm ideal for elegant décor."
   },
   {
-    id: 45,
+    id: "45",
     name: "Majesty Palm",
     category: "Palms",
     price: 360,
@@ -377,7 +379,7 @@ export const plants = [
     description: "Majestic palm with wide tropical fronds."
   },
   {
-    id: 46,
+    id: "46",
     name: "Pygmy Date Palm",
     category: "Palms",
     price: 390,
@@ -385,7 +387,7 @@ export const plants = [
     description: "Miniature date palm with an exotic look."
   },
   {
-    id: 47,
+    id: "47",
     name: "Foxtail Palm",
     category: "Palms",
     price: 410,
@@ -393,7 +395,7 @@ export const plants = [
     description: "Fluffy fronds resembling a fox’s tail."
   },
   {
-    id: 48,
+    id: "48",
     name: "Bismarck Palm",
     category: "Palms",
     price: 420,
@@ -401,7 +403,7 @@ export const plants = [
     description: "Silver-blue leaves with architectural style."
   },
   {
-    id: 49,
+    id: "49",
     name: "Bottle Palm",
     category: "Palms",
     price: 380,
@@ -409,7 +411,7 @@ export const plants = [
     description: "Palm with swollen base resembling a bottle."
   },
   {
-    id: 50,
+    id: "50",
     name: "Coconut Palm",
     category: "Palms",
     price: 440,
@@ -419,7 +421,7 @@ export const plants = [
 
   // Ferns
   {
-    id: 51,
+    id: "51",
     name: "Boston Fern",
     category: "Ferns",
     price: 180,
@@ -427,7 +429,7 @@ export const plants = [
     description: "Classic fern with arching fronds."
   },
   {
-    id: 52,
+    id: "52",
     name: "Maidenhair Fern",
     category: "Ferns",
     price: 200,
@@ -435,7 +437,7 @@ export const plants = [
     description: "Delicate fern with lace-like leaves."
   },
   {
-    id: 53,
+    id: "53",
     name: "Staghorn Fern",
     category: "Ferns",
     price: 250,
@@ -443,7 +445,7 @@ export const plants = [
     description: "Mounted fern with antler-shaped fronds."
   },
   {
-    id: 54,
+    id: "54",
     name: "Bird’s Nest Fern",
     category: "Ferns",
     price: 220,
@@ -451,7 +453,7 @@ export const plants = [
     description: "Wavy, tropical fern with bold structure."
   },
   {
-    id: 55,
+    id: "55",
     name: "Asparagus Fern",
     category: "Ferns",
     price: 170,
@@ -459,7 +461,7 @@ export const plants = [
     description: "Feathery and airy foliage with luxury vibe."
   },
   {
-    id: 56,
+    id: "56",
     name: "Kangaroo Paw Fern",
     category: "Ferns",
     price: 190,
@@ -467,7 +469,7 @@ export const plants = [
     description: "Unique fern with leather-like fronds."
   },
   {
-    id: 57,
+    id: "57",
     name: "Button Fern",
     category: "Ferns",
     price: 160,
@@ -475,7 +477,7 @@ export const plants = [
     description: "Compact fern with rounded leaves."
   },
   {
-    id: 58,
+    id: "58",
     name: "Silver Brake Fern",
     category: "Ferns",
     price: 210,
@@ -483,7 +485,7 @@ export const plants = [
     description: "Decorative fern with silver-striped fronds."
   },
   {
-    id: 59,
+    id: "59",
     name: "Blue Star Fern",
     category: "Ferns",
     price: 230,
@@ -491,13 +493,14 @@ export const plants = [
     description: "Exotic fern with bluish-green fronds."
   },
   {
-    id: 60,
+    id: "60",
     name: "Holly Fern",
     category: "Ferns",
     price: 200,
     image: "https://images.unsplash.com/photo-1667305202885-847a0bfa9d7f?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     description: "Hardy fern with glossy holly-like leaves."
   }
+
 ];
 
 // 🌴 Categories Array

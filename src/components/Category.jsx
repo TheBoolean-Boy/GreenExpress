@@ -32,7 +32,7 @@ const Category = ({category, setCategory}) => {
             if(category === "All" || item.category === category){
               console.log(category)
               return (
-              <Card key={item.id} name={item.name} category={item.category} price={item.price} image={item.image} description={item.description} />
+              <Card key={index} id={item.id} name={item.name} category={item.category} price={item.price} image={item.image} description={item.description} />
             )
             }
           })
