@@ -1,14 +1,16 @@
+import { useState } from "react"
 import About from "../components/About"
 import Category from "../components/Category"
 import Hero from "../components/Hero"
 
 
 const Home = () => {
+  const [category, setCategory] = useState("All");
   return (
     <div>
       <Hero />
       <About />
-      <Category />
+      <Category category={category} setCategory ={setCategory} />
     </div>
   )
 }

@@ -502,12 +502,12 @@ export const plants = [
 
 // 🌴 Categories Array
 export const categories = [
-  { category: "Bonsai", image: "https://images.unsplash.com/photo-1667305202885-847a0bfa9d7f?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
-  { category: "Thorns", image: "https://images.unsplash.com/photo-1667305202885-847a0bfa9d7f?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
-  { category: "Orchids", image: "https://images.unsplash.com/photo-1667305202885-847a0bfa9d7f?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
-  { category: "Succulents", image: "https://images.unsplash.com/photo-1667305202885-847a0bfa9d7f?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
-  { category: "Palms", image: "https://images.unsplash.com/photo-1667305202885-847a0bfa9d7f?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
-  { category: "Ferns", image: "https://images.unsplash.com/photo-1667305202885-847a0bfa9d7f?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" }
+  { category: "Bonsai" },
+  { category: "Thorns" },
+  { category: "Orchids" },
+  { category: "Succulents"},
+  { category: "Palms" },
+  { category: "Ferns" }
 ];
 
 

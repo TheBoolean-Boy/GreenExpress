@@ -2,9 +2,11 @@
 
 import React from 'react'
 import Card from '../utils/Card'
+import Button from '../utils/Button'
+import { plants } from '../assets/data'
 
-const Category = () => {
-  const tree = {
+const Category = ({category, setCategory}) => {
+  const item = {
     id: 2,
     name: "Ficus Bonsai",
     category: "Bonsai",
@@ -14,7 +16,29 @@ const Category = () => {
   }
   return (
     <div>
-      <Card name={tree.name} category={tree.category} price={tree.price} image={tree.image} description={tree.description} />
+      <div className=' flex gap-10 justify-center mb-10'>
+        <Button buttonText={"All"} onClick = {() => setCategory("All")} />
+        <Button buttonText={"Bonsai"} onClick = {() => setCategory("Bonsai")} />
+        <Button buttonText={"Thorns"} onClick = {() => setCategory("Thorns")} />
+        <Button buttonText={"Orchids"}  onClick = {() => setCategory("Orchids")}/>
+        <Button buttonText={"Succulents"} onClick = {() => setCategory("Succulents")} />
+        <Button buttonText={"Palms"} onClick = {() => setCategory("Palms")} />
+        <Button buttonText={"Ferns"} onClick = {() => setCategory("Ferns")} />
+      </div>
+
+      <div className=' grid grid-cols-4 gap-y-10 mb-10 w-[100%] '>
+        {
+          plants.map((item, index) => {
+            if(category === "All" || item.category === category){
+              console.log(category)
+              return (
+              <Card key={item.id} name={item.name} category={item.category} price={item.price} image={item.image} description={item.description} />
+            )
+            }
+          })
+        }
+
+      </div>
     </div>
   )
 }
