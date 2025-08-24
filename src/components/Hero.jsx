@@ -5,9 +5,9 @@ import bonsai2 from '../assets/bonsai2.png'
 
 const Hero = () => {
   return (
-    <div className=' min-h-screen flex justify-start py-10 px-9'>
-      <div className='flex-1 flex flex-col gap-10'>
-        <div className='text-[#272727] text-8xl font-bold'>Largest Online <br /> <span className='text-green-800'>Green</span> Retail <br /> Store</div>
+    <div className=' min-h-screen flex flex-col md:flex-row gap-40 justify-start py-10 px-9'>
+      <div className='flex-1 flex flex-col gap-10 order-2 z-5'>
+        <div className='text-[#272727] text-4xl md:text-8xl font-bold'>Largest Online <br /> <span className='text-green-800'>Green</span> Retail <br /> Store</div>
         <div>
         <p className=' -mt-5 text-[#8b8784]'>Plant Express is the only international supplier of hybrid, luxury and decorative plant species. We span across 345 cities and 97 countries.</p>
         </div>
