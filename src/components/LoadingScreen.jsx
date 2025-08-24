@@ -15,7 +15,7 @@ const LoadingScreen = ({ onComplete }) => {
         clearInterval(loadingInterval);
         setTimeout(() => {
           onComplete();
-        }, 1000)
+        }, 2000)
       }
 
 
@@ -26,8 +26,8 @@ const LoadingScreen = ({ onComplete }) => {
 
   return (
     <div className='fixed inset-0 z-10 bg-white flex flex-col items-center justify-center'>
-      <div className='text-4xl font-mono font-bold'>
-        {text}<span className=" animate-blink text-teal-800">|</span>
+      <div className='text-4xl font-mono font-bold mb-4 text-center'>
+        {text}<span className=" animate-blink text-teal-800 -ml-1">|</span>
       </div>
       <div className=" bg-[#ededed] w-[300px] h-[3px] rounded relative overflow-hidden">
         <div className=" bg-green-800 h-full width-[40%] animate-loading"></div>

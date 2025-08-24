@@ -1,22 +1,36 @@
 
-
-import React, { useState } from 'react'
+import { useState } from 'react'
 import Button from './utils/Button'
 import LoadingScreen from './components/LoadingScreen';
+
+import { Route, Routes } from 'react-router-dom';
+import Cart from './pages/Cart';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
+import Order from './pages/Order';
+import Home from './pages/Home';
+
 
 const App = () => {
   const [isLoading, setIsLoading] = useState(false);
   return (
-    <div className=' h-screen bg-[#ededed]'>
-    {
-      !isLoading?
-      <LoadingScreen onComplete={ () => setIsLoading(true)}/>
-      :<></>
-    }
-    <Button buttonText={"See All"}/>
-    <br />
-      <h1 className=' mt-10 text-[#272727] font-bold text-8xl'>This is an H1 Tag</h1>
-    </div>
+    <>
+      {/* {
+        !isLoading ?
+          <LoadingScreen onComplete={() => setIsLoading(true)} />
+          : <></>
+      } */}
+      <div className=' max-w-[1400px] mx-auto relative'>
+        <Navbar />
+        <Routes>
+          <Route path={"/"} element={<Home />} />
+          <Route path={"/cart"} element={<Cart />} />
+          <Route path={"/order"} element={<Order />} />
+        </Routes>
+        <Footer />
+      </div>
+
+    </>
   )
 }
 
