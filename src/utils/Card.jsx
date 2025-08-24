@@ -8,7 +8,7 @@ const Card = (props) => {
   const { addToCart, cartItems, removeFromCart } = useContext(StoreContext);
 
   return (
-    <div className=' bg-white/40 rounded-2xl max-w-[320px] mx-auto flex flex-col items-center shadow-[0px_8px_10px_0px_rgba(0,0,0,0.1)] overflow-hidden cursor-pointer transition-all duration-300'>
+    <div className=' bg-white/40 rounded-2xl max-w-[320px] mx-auto flex flex-col items-center shadow-sm hover:shadow-[0px_8px_10px_0px_rgba(0,0,0,0.1)] overflow-hidden cursor-pointer transition-all duration-300'>
       <div className='w-full flex justify-center overflow-hidden relative'>
         <img src={props.image} alt={props.name} className='w-full transition-transform duration-300' />
 

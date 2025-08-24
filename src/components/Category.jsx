@@ -16,7 +16,7 @@ const Category = ({category, setCategory}) => {
   }
   return (
     <div>
-      <div className=' flex gap-10 justify-center mb-10'>
+      <div className=' flex flex-wrap  gap-2 md:gap-10 justify-center mb-10'>
         <Button buttonText={"All"} onClick = {() => setCategory("All")} />
         <Button buttonText={"Bonsai"} onClick = {() => setCategory("Bonsai")} />
         <Button buttonText={"Thorns"} onClick = {() => setCategory("Thorns")} />
@@ -26,7 +26,7 @@ const Category = ({category, setCategory}) => {
         <Button buttonText={"Ferns"} onClick = {() => setCategory("Ferns")} />
       </div>
 
-      <div className=' grid grid-cols-4 gap-y-10 mb-10 w-[100%] '>
+      <div className=' grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-y-10 mb-10 w-[100%] '>
         {
           plants.map((item, index) => {
             if(category === "All" || item.category === category){
