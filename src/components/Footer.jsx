@@ -18,15 +18,23 @@ const Footer = () => {
       </div>
     </div>
     <div className='flex-1 ml-10 '>
-      <ul className=' flex flex-col gap-2'>
+      <ul className=' flex flex-col gap-2 w-fit text-[#272727]'>
         <li className=' font-semibold mb-3'>Services</li>
-        <li>Species Identification</li>
-        <li>Harmonic Elimination</li>
-        <li>Gulf Provisioning</li>
-        <li>PickUp</li>
+        <li className=' cursor-pointer hover:scale-105 transition-trasnform duration-300 hover:underline hover:text-black'>Species Identification</li>
+        <li className=' cursor-pointer hover:scale-105 transition-trasnform duration-300 hover:underline hover:text-black'>Harmonic Elimination</li>
+        <li className=' cursor-pointer hover:scale-105 transition-trasnform duration-300 hover:underline hover:text-black'>Gulf Provisioning</li>
+        <li className=' cursor-pointer hover:scale-105 transition-trasnform duration-300 hover:underline hover:text-black'>PickUp</li>
       </ul>
     </div>
-    <div className='flex-1'></div>      
+    <div className='flex-1'>
+      <ul className=' flex flex-col gap-2 w-fit text-[#272727]'>
+        <li className=' font-semibold mb-3'>Services</li>
+        <li className=' cursor-pointer hover:scale-105 transition-trasnform duration-300 hover:underline hover:text-black'>Species Identification</li>
+        <li className=' cursor-pointer hover:scale-105 transition-trasnform duration-300 hover:underline hover:text-black'>Harmonic Elimination</li>
+        <li className=' cursor-pointer hover:scale-105 transition-trasnform duration-300 hover:underline hover:text-black'>Gulf Provisioning</li>
+        <li className=' cursor-pointer hover:scale-105 transition-trasnform duration-300 hover:underline hover:text-black'>PickUp</li>
+      </ul>
+    </div>      
     </div>
   )
 }
