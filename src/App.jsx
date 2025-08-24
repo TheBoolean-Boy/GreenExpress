@@ -9,10 +9,13 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Order from './pages/Order';
 import Home from './pages/Home';
+import MobileMenu from './components/MobileMenu';
 
 
 const App = () => {
   const [isLoading, setIsLoading] = useState(false);
+  const [mobileMenu, setMobileMenu] = useState(false);
+
   return (
     <>
       {/* {
@@ -21,7 +24,10 @@ const App = () => {
           : <></>
       } */}
       <div className=' max-w-[1400px] mx-auto relative'>
-        <Navbar />
+        {
+          mobileMenu ? <MobileMenu mobileMenu={mobileMenu} setMobileMenu ={setMobileMenu} /> : <></>
+        }
+        <Navbar mobileMenu={mobileMenu} setMobileMenu={setMobileMenu} />
         <Routes>
           <Route path={"/"} element={<Home />} />
           <Route path={"/cart"} element={<Cart />} />

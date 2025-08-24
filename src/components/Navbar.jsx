@@ -1,13 +1,12 @@
 
 
-
-import React from 'react'
 import { FaSearch, FaUserCircle } from 'react-icons/fa'
 import { HiMenu } from 'react-icons/hi'
 
-const Navbar = () => {
+const Navbar = ({mobileMenu, setMobileMenu}) => {
+  
   return (
-    <nav className='absolute top-2 px-10 py-2 bg-white rounded-full w-[100%] flex items-center justify-between shadow shadow-[0px_4px_6px_0px_rgab(#0000001a, #0000001a)]'>
+    <nav className='sticky top-2 px-10 py-2 bg-white/40 backdrop-blur-sm rounded-full w-[100%] flex items-center justify-between shadow shadow-[0px_4px_6px_0px_rgab(#0000001a, #0000001a)] mb-10 z-10'>
 
       <div className='flex items-baseline'>
         <div className='text-2xl font-bold mr-12 flex items-center cursor-pointer'>Plant<span className=' text-green-800'>Express</span></div>
@@ -26,8 +25,9 @@ const Navbar = () => {
           <FaSearch className=' cursor-pointer hover:scale-115 transition duration-200' />
           <FaUserCircle className=' cursor-pointer hover:scale-115 transition duration-200' />
         </div>
-        <div className='text-2xl font-bold '>
-          <HiMenu className=' cursor-pointer hover:scale-115 transition duration-200' />
+        <div className='md:hidden text-2xl font-bold '>
+          <HiMenu className=' cursor-pointer hover:scale-115 transition duration-200'
+          onClick={() => setMobileMenu(!mobileMenu)}/>
         </div>
       </div>
     </nav>
