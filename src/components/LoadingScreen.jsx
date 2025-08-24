@@ -25,7 +25,7 @@ const LoadingScreen = ({ onComplete }) => {
   }, [onComplete])
 
   return (
-    <div className='fixed inset-0 z-10 bg-white flex flex-col items-center justify-center'>
+    <div className=' z-100 fixed inset-0 bg-white flex flex-col items-center justify-center'>
       <div className='text-4xl font-mono font-bold mb-4 text-center'>
         {text}<span className=" animate-blink text-teal-800 -ml-1">|</span>
       </div>

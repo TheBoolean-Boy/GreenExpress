@@ -18,11 +18,11 @@ const App = () => {
 
   return (
     <>
-      {/* {
+      {
         !isLoading ?
           <LoadingScreen onComplete={() => setIsLoading(true)} />
           : <></>
-      } */}
+      }
       <div className=' max-w-[1400px] mx-auto relative'>
         {
           mobileMenu ? <MobileMenu mobileMenu={mobileMenu} setMobileMenu ={setMobileMenu} /> : <></>
@@ -33,7 +33,7 @@ const App = () => {
           <Route path={"/cart"} element={<Cart />} />
           <Route path={"/order"} element={<Order />} />
         </Routes>
-        <Footer />
+        {/* <Footer /> */}
       </div>
 
     </>

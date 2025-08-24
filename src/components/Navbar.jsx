@@ -1,7 +1,8 @@
 
 
-import { FaSearch, FaUserCircle } from 'react-icons/fa'
+import { FaSearch, FaShoppingCart, FaUserCircle } from 'react-icons/fa'
 import { HiMenu } from 'react-icons/hi'
+import { Link } from 'react-router-dom'
 
 const Navbar = ({mobileMenu, setMobileMenu}) => {
   
@@ -9,7 +10,10 @@ const Navbar = ({mobileMenu, setMobileMenu}) => {
     <nav className='sticky top-2 px-10 py-2 bg-white/40 backdrop-blur-sm rounded-full w-[100%] flex items-center justify-between shadow shadow-[0px_4px_6px_0px_rgab(#0000001a, #0000001a)] mb-10 z-10'>
 
       <div className='flex items-baseline'>
+        <Link to={"/"}>
+
         <div className='text-2xl font-bold mr-12 flex items-center cursor-pointer'>Plant<span className=' text-green-800'>Express</span></div>
+        </Link>
 
         <ul className=' hidden md:flex gap-8 items-center'>
           <li className='font-semibold hover:underline transition duration-200 hover:scale-105 cursor-pointer'>Home</li>
@@ -24,6 +28,10 @@ const Navbar = ({mobileMenu, setMobileMenu}) => {
         <div className=' hidden md:flex text-2xl font-semibold gap-4 items-center'>
           <FaSearch className=' cursor-pointer hover:scale-115 transition duration-200' />
           <FaUserCircle className=' cursor-pointer hover:scale-115 transition duration-200' />
+          <Link to = {"/cart"}>
+          <FaShoppingCart className=' cursor-pointer hover:scale-115 transition duration-200' />
+          </Link>
+
         </div>
         <div className='md:hidden text-2xl font-bold '>
           <HiMenu className=' cursor-pointer hover:scale-115 transition duration-200'
